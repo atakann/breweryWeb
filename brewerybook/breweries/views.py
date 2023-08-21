@@ -11,7 +11,7 @@ from drf_yasg import openapi
 breweries_params = [
     openapi.Parameter('by_city', in_=openapi.IN_QUERY, type=openapi.TYPE_STRING, description='Filter breweries by city'),
     openapi.Parameter('by_name', in_=openapi.IN_QUERY, type=openapi.TYPE_STRING, description='Filter breweries by name'),
-    openapi.Parameter('type', in_=openapi.IN_QUERY, type=openapi.TYPE_STRING, description='Filter breweries by type (e.g., micro, nano)'),
+    openapi.Parameter('by_type', in_=openapi.IN_QUERY, type=openapi.TYPE_STRING, description='Filter breweries by type (e.g., micro, nano)'),
     openapi.Parameter(
         name='Authorization', 
         in_=openapi.IN_HEADER, 
