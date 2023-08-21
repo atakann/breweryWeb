@@ -93,7 +93,7 @@ There are three endpoints.
 - **by_name**: Filter breweries by name.
 
 **Headers**:
-- **Authorization**: Bearer token for authentication. Use like Bearer <token>.
+- **Authorization**: Bearer token for authentication. Use like Bearer <jwt>.
 
 ## Example API Usage
 
